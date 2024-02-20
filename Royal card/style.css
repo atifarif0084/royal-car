@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sharebar{
+    height: 100px;
+    width: 100%;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    line-height: 48px;
+}
+
+.navbar{
+    margin: 0 100px;
+    background-color: orangered;
+    transform: translateY(-30px);
+    padding: 20px 0;
+}
+.tws{
+    height: 120px;
+    width: 300px;
+    background-color: lightcoral;
+    display: inline-flex;
+}
+.Heroh{
+    margin: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mic{
+    width: 50px;
+    font-size: 40px;
+    padding: 25px 0px;
+}
+@media (Max-Width: 650px){
+    .navbar{
+        margin: 0;
+        transform: translateY(0px);
+    }
+    .sharebar{
+        display: none;
+    }
+}
