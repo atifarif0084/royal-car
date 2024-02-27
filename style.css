@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: orchid;
+}
+.msgarea{
+    width: 100vw;
+    height: 100%;
+    background-color: blueviolet;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: rebeccapurple;
+    cursor:  pointer;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+@media only screen and (max-width: 667px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .card{
+    margin-bottom: 20px;
+  }
+}

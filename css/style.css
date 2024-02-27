@@ -1,0 +1,18 @@
+h1{
+    color: aqua;
+}
+
+/*li a{
+    color: rgb(155, 65, 95);
+}*/
+p{
+    color: rgb(248, 65, 128);
+    text-align: center;
+}
+div{
+    background-color: rgba(248, 45, 200, .5);
+    opacity: 1;
+}
+body{
+    background-color: burlywood;
+}

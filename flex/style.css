@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.banner{
+    display: flex;
+}
+.banner div{
+    height: 400px;
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    
+}
+.iphone{
+    flex: 1;
+    background-image: url('15.jpg');
+}
+.iphone15pro{
+    flex: 1;
+    background-image: url('15pro.jpg');
+}
+.vision{
+    flex: 1;
+    background-image: url('Apple-Vision-Pro.jpg');
+}
+.fitness{
+    flex: 1;
+    background-image: url('fitness\ +.png');
+}
+.watch{
+    flex: 1;
+    background-image: url('watch_series_9.png');
+}
